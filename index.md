@@ -10,5 +10,5 @@ ADDRESS is a project that aims to Augment, Denoise and Debias cRowdsourced mEasu
 Synthesis of internet access characterization
 
 This effort is supported by:
-* NSF Internet Measurement Research: Methodologies, Tools, and Infrastructure grant;
-* NSF RAPID: Neighborhood-level U.S. Internet Accessibility Assessment through Dataset Aggregation and Statistical and Predictive Modeling grant, OAC-2033946;
+* NSF Internet Measurement Research: Methodologies, Tools, and Infrastructure grant, OAC-2220417;
+* NSF Rapid Response Research (RAPID) grant, OAC-2033946;
