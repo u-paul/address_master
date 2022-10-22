@@ -1,0 +1,65 @@
+---
+layout: page
+title: ADDRESS
+use-site-title: true
+---
+
+<h1>Project Overview</h1>
+
+<p align="justify">ADDRESS is an abbreviation for Augment, Denoise and Debias cRowdsourced mEasurements for Statistica Synthesis of internet access characterization. 
+                    The United States has long suffered from digital inequality that stretches in multiple dimensions. 
+                    For instance, rural and tribal regions are far less likely than urban cities to have high quality, high-speed Internet access. 
+                    Several demographic and socioeconomic factors, such as race, ethnicity, income, etc., are often indicators of Internet availability and quality. 
+                    To fully bridge the Internet access divide and best allocate available funding, policymakers need to understand the state of Internet accessibility and quality.
+                     Further, they not only require accurate information on distributions of Internet quality in a geographical region, but also the contributors to the 
+                     distribution’s tail (regions of poor quality). In essence, policymakers need data that enables a complete characterization of Internet access 
+                     quality at the most refined geographical granularity (i.e., street address level). 
+                     The data should provide the following information: (1) where precisely the access does (not) exist, 
+                     (2) what broadband plans are available in a region, and (3) where precisely the networks do (not) meet the service goals. 
+                     To help provide this information, crowdsourced Internet mea surement datasets, such as those collected by Measurement Lab, Ookla, 
+                     and Measuring Broadband Amer ica (MBA), report actual Internet performance at the test locations. However, these datasets have a variety of limitations. 
+                     They are temporally and spatially sparse and unevenly distributed; they are noisy with respect to accurate identification of the actual path bottleneck; 
+                     and they have biases along multiple dimen sions, including across demographic and socioeconomic variables. Our work will address these deficiencies 
+                     through novel statistical techniques to augment, denoise, and debias crowdsourced Internet measurement datasets to provide the critical policy data 
+                     discussed above.</p>
+
+<h1>Contextualizing Speed Test Measurements</h1>
+
+<p align="justify">Crowdsourced speed test measurements, such as those by Ookla®
+                    and Measurement Lab (M-Lab), offer a critical view of network
+                    access and performance from the user's perspective. However, we
+                    argue that taking these measurements at surface value is problem-
+                    atic. It is essential to contextualize these measurements to understand better what the attained upload and download speeds truly
+                    measure. To this end, we develop a novel Broadband Subscription
+                    Tier (BST) methodology that associates a speed test data point with
+                    a residential broadband subscription plan. Our evaluation of this
+                    methodology with the FCC's MBA dataset shows over 96% accu-
+                    racy. We augment approximately 1.5M Ookla and M-Lab speed test
+                    measurements from four major U.S. cities with the BST methodology. We show that many low-speed data points are attributable to
+                    lower-tier subscriptions and not necessarily poor access. Then, for
+                    a subset of the measurement sample (80k data points), we quantify
+                    the impact of access link type (WiFi or wired), WiFi spectrum band
+                    and RSSI (if applicable), and device memory on speed test performance. Interestingly, we observe that measurement time of day only
+                    marginally affects the reported speeds. Finally, we show that the
+                    median throughput reported by Ookla speed tests can be up to two
+                    times greater than M-Lab measurements for the same subscription
+                    tier, city, and ISP due to M-Lab's employment of different measurement methodologies. Based on our results, we put forward a set of
+                    recommendations for both speed test vendors and the FCC to contextualize speed test data points and correctly interpret measured
+                    performance.
+                </p>
+
+<p align="justify">This work is timely given the recent focus on crowdsourced speed test measurements (think Ookla Speed test) for policy-related decision making. Our paper argues that using these measurements without understanding their context is problematic. Though the community had internalized that speed-test results can be misleading, no one knew the extent of skews in such crowdsourced datasets.
+    One significant roadblock in contextualizing these measurements was to infer their subscription tier (10 Mbps vs. 100 Mbps plan). A speed test result of 10 Mbps is not bad if the user subscribed to a 10 Mbps plan, but it is quite problematic if it subscribed to a 100 Mbps plan. We developed a novel methodology to infer the subscription tier for crowdsourced measurements. He then applied this methodology to quantify skews in public (FCC's MBA, Google's M-Lab) and private (Ookla) crowdsourced datasets. His analysis shows how lack of context contributes to misleading conclusions and offers a set of recommendations for speed test vendors and the FCC to contextualize speed test data and correctly interpret measured performance.</p>
+
+
+<h1>Acknowledgement</h1>
+
+This effort is supported by:
+
+<ul>
+    <li>NSF Internet Measurement Research: Methodologies, Tools, and Infrastructure grant, OAC-2220417</li>
+    <li>NSF Rapid Response Research (RAPID) grant, OAC-2033946</li>
+    <li>Ookla</li>
+    <li>Measurement Lab</li>
+    <li>Zillow</li>
+</ul>
