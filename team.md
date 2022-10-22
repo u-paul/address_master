@@ -4,10 +4,13 @@ title: Team
 permalink: /team/
 ---
 
-# Team
+# About Us
 
-## Current participants
-- Dr. Elizabeth Beling
-- Dr. Arpit Gupta
-- Dr. Mengyang Gu
-- Udit Paul
+We are a group of academic researchers that seek to study and address Internet inequity issues.
+
+<!-- ## Current participants -->
+- [Udit Paul](#)
+- [Jiamo Liu](#)
+- [Elizabeth Belding](#)
+- [Arpit Gupta](https://cs.ucsb.edu/~arpitgupta)
+- [Mengyang Gu](#)
